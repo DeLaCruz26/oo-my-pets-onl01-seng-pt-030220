@@ -7,7 +7,7 @@ attr_reader :name, :species
   end
 
   def species
-    
+    self.species.new("Human")
   end
 
 end
