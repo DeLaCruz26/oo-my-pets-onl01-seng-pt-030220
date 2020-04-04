@@ -6,4 +6,8 @@ attr_reader :name :species
     @name = name
   end
 
+  def species
+    @species = self
+  end
+
 end
